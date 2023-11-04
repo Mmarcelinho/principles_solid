@@ -1,8 +1,8 @@
 namespace Principios_SOLID.ISP.Violacao;
 
-    public class IPedido
+    public interface IPedido
     {
-        public void Validar();
+        void Validar();
 
-        public void EnviarEmail();
+        void EnviarEmail();
     }

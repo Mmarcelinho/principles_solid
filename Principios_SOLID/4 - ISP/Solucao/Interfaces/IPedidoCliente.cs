@@ -1,8 +1,8 @@
 namespace Principios_SOLID.ISP.Solucao.Interfaces;
 
-public class IPedidoCliente
+public interface IPedidoCliente
 {
-    public void Validar();
+    void Validar();
 
-    public void EnviarEmail();
+    void EnviarEmail();
 }

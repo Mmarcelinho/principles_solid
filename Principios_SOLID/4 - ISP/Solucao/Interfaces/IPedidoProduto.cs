@@ -1,6 +1,6 @@
 namespace Principios_SOLID.ISP.Solucao.Interfaces;
 
-    public class IProdutoPedido
+    public interface IPedidoProduto
     {
-         public void Validar();
+         void Validar();
     }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Text.Json;
 namespace Principios_SOLID.SRP.Violacao;
 
 public class Loja

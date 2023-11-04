@@ -1,4 +1,3 @@
-using System.Collections;
 namespace Principios_SOLID.SRP.Solucao;
 
 public class Loja

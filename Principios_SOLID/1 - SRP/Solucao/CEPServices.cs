@@ -1,5 +1,3 @@
-using System;
-using System.Text.Json;
 namespace Principios_SOLID.SRP.Solucao;
 
 public static class CEPServices

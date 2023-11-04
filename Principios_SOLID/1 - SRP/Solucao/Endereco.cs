@@ -1,4 +1,3 @@
-using System.Text.Json.Serialization;
 namespace Principios_SOLID.SRP.Solucao;
 
 public class Endereco
