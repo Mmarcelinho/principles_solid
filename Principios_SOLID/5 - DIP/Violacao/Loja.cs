@@ -1,8 +1,7 @@
-namespace Principios_SOLID.SRP.Solucao;
+namespace Principios_SOLID.DIP.Violacao;
 
 public class Loja
 {
-
     public Loja(int id, string nome)
     {
         this.Id = id;

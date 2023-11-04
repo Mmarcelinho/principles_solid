@@ -2,12 +2,11 @@ namespace Principios_SOLID.SRP.Violacao;
 
 public class Loja
 {
-
-    public Loja(int id, string nome, string endereco)
+    public Loja(int id, string nome, string cep)
     {
         this.Id = id;
         this.Nome = nome;
-        this.Endereco = GetEndereco(endereco);
+        this.Endereco = GetEndereco(cep);
     }
     public int Id { get; set; }
 
@@ -15,12 +14,12 @@ public class Loja
 
     public Endereco Endereco { get; set; }
 
-    public static bool CEPValid(string cep)
+    public bool CEPValid(string cep)
     {
         return cep.Length != 8;
     }
 
-    public static Endereco GetEndereco(string cep)
+    public Endereco GetEndereco(string cep)
     {
         if (!CEPValid(cep))
             Console.WriteLine("Cep inválido");
