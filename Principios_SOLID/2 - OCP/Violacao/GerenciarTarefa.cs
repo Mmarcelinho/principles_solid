@@ -29,4 +29,12 @@ namespace Principios_SOLID.OCP.Violacao
 
 
 }
+
 }
+
+/*
+   Esta classe está violando o princípio OCP (Open/Closed Principle) do SOLID,
+   uma vez que possui várias condicionais para verificar o status da tarefa e realizar ações específicas
+   com base nesse status. Isso torna a classe vulnerável a modificações sempre que um novo status de
+   tarefa é adicionado.
+*/

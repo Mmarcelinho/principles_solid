@@ -12,3 +12,7 @@ namespace Principios_SOLID.ISP.Violacao;
              Console.WriteLine("Implementação EnviarEmail PedidoProduto");
         }
     }
+
+// A classe PedidoProduto implementa a interface IPedido,
+// mas há uma violação do princípio ISP (Princípio da Segregação de Interfaces) do SOLID,
+// pois um produto de um pedido não possui a funcionalidade de enviar email.
