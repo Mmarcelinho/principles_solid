@@ -1,4 +1,4 @@
-# Princípios SOLID - Exemplos e Refatorações
+# Princípios SOLID 
 
 Este repositório contém exemplos de código que violam os princípios SOLID (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) e suas respectivas soluções. O objetivo é ilustrar como refatorar o código para aderir aos princípios SOLID.
 
